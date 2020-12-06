@@ -1,26 +1,31 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-//import Link from 'next/link'
 
-export default () => {
+export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
-        <div className={styles.herotextbox}>
-            <h1>Transforma Tú Vida <br></br>Aprende de las Culturas Ancestrales</h1>
+          <div className="hero-text-box">
+              <h1>Transforma Tú Vida <br></br>Aprende de las Culturas Ancestrales</h1>
               <a className="btn btn-full" href="#">Regístrate</a>
               <a className="btn btn-ghost" href="https://form.typeform.com/to/VOmPP1iL">Autodiagnóstico</a>
-        </div>
+          </div>
       </header>
 
-      <footer className={styles.footer}>
-
-      </footer>
     </div>
   )
 }
+
+
+
+{/* <div className="page-container-welcome">
+
+<div className="content-wrap">
+   Hello dear!
+</div>
+
+</div> */}
