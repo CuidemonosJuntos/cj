@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="col span-1-of-4 box">
 
                     <h3>Iniciación</h3>
-                    <p>Con la guía del Taita de la comunidad Inga, se abren las puertas del conocimiento ancestral. Llegamos al conocimiento propio, reconociendo nuestra naturaleza y entorno físico y emocional.</p>
+                    <p>Con la guía del Taita de la comunidad Inga, se abren las puertas del conocimiento ancestral. Llegamos al conocimiento propio, reconociendo nuestra naturaleza,  entorno físico y emocional.</p>
                 </div>
                 <div className="col span-1-of-4 box">
 
@@ -65,47 +65,79 @@ export default function Home() {
         <ul className="images-showcase">
           <li>
               <figure className="animal-photo">
-                  <div className="mountain"><Image src="/img/2.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" /></div>
+                  <div className="mountain"><Image src="/img/2.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" /></div>
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/3.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/3.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/6.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/4.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/5.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/5.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
         </ul>
         <ul className="images-showcase">
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/6.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/6.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/7.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/7.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/8.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <Image src="/img/8.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
               </figure>
           </li>
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/9.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px"/>
+                  <Image src="/img/9.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px"/>
               </figure>
           </li>
         </ul>
+      </section>
+
+
+      <section className="section-features">
+          <div className="row">
+              <h2>¿Cómo funciona? &mdash; Los Elementos: El Equilibrio</h2>
+              <p className="long-copy">La madre tierra está constituida por una sinergia entre los cuatro elementos. Esa armonía elemental abarca todos los planos y las esferas de nuestra vida y nos envuelve su esencia, la mente, el cuerpo, el alma y nuestro alrededor.
+</p>
+          </div>
+          <div className="row">
+              <div className="col span-1-of-4 box">
+                  <Image src="/img/air.png" alt="air" width="28px" height="23px" sizes="(max-width: 125px) 30px" />
+                  <h3>Aire</h3>
+                  <p>Es la conexión entre el mundo de afuera y el mundo de adentro, es la voz del espíritu, por ello la respiración es el canal de comunicación y el regulador de las energías.</p>
+              </div>
+              <div className="col span-1-of-4 box">
+                  <Image src="/img/earth.png" alt="earth" width="28px" height="23px" sizes="(max-width: 125px) 30px" />
+                  <h3>Tierra</h3>
+                  <p>Representa la forma, los órganos músculos, el sistema óseo, la materia de la existencia. Es nuestra raíz y conexión con la naturaleza y su energía.</p>
+              </div>
+              <div className="col span-1-of-4 box">
+                  <Image src="/img/fire.png" alt="air" width="28px" height="23px" sizes="(max-width: 125px) 30px" />
+                  <h3>Fuego</h3>
+                  <p>Es el alquimista de la materia, todo lo transforma. Representa nuestro cuerpo espiritual, es un pequeño carbón del sol, es el fuego del cielo y el sol de la tierra.</p>
+              </div>
+              <div className="col span-1-of-4 box">
+                  <Image src="/img/water.png" alt="air" width="28px" height="23px" sizes="(max-width: 125px) 30px" />
+                  <h3>Agua</h3>
+                  <p>Es la cuota de nuestra vida, el cuerpo sutil del ser, la sangre por donde se mueve la vida, purifica emociones, limpia pensamientos y palabra. </p>
+              </div>
+            </div>
+
       </section>
 
     </div>
