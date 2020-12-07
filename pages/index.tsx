@@ -24,11 +24,12 @@ export default function Home() {
 
           </nav>
           <div className="hero-text-box">
-                <h1>Transforma Tú Vida<br></br>Aprende de las Culturas Ancestrales</h1>
+                <h1>Transforma Tú Vida!<br></br>Aprende de las Culturas Ancestrales</h1>
                 <a className="btn btn-full" href="#">Regístrate</a>
                 <a className="btn btn-ghost" href="https://form.typeform.com/to/VOmPP1iL">Autodiagnóstico</a>
           </div>
       </header>
+
 
       <section className="section-features">
           <div className="row">
@@ -62,7 +63,7 @@ export default function Home() {
 
 
       <section className="section-images">
-        <ul className="images-showcase">
+        <ul className="images-showcase clearfix">
           <li>
               <figure className="animal-photo">
                   <div className="mountain"><Image src="/img/2.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" /></div>
@@ -84,7 +85,7 @@ export default function Home() {
               </figure>
           </li>
         </ul>
-        <ul className="images-showcase">
+        <ul className="images-showcase clearfix">
           <li>
               <figure className="animal-photo">
                   <Image src="/img/6.jpg" alt="" width="800px" height="600px" sizes="(max-width: 500px) 100px" />
@@ -109,12 +110,11 @@ export default function Home() {
       </section>
 
 
-      <section className="section-features">
+      <section className="section-elements">
           <div className="row">
               <h2>¿Cómo funciona? &mdash; Los Elementos: El Equilibrio</h2>
-              <p className="long-copy">La madre tierra está constituida por una sinergia entre los cuatro elementos. Esa armonía elemental abarca todos los planos y las esferas de nuestra vida y nos envuelve su esencia, la mente, el cuerpo, el alma y nuestro alrededor.
-</p>
-          </div>
+              <p className="long-copy">La madre tierra está constituida por una sinergia entre los cuatro elementos. Esa armonía elemental abarca todos los planos y las esferas de nuestra vida y nos envuelve su esencia, la mente, el cuerpo, el alma y nuestro alrededor.</p>
+       </div>
           <div className="row">
               <div className="col span-1-of-4 box">
                   <Image src="/img/air.png" alt="air" width="28px" height="23px" sizes="(max-width: 125px) 30px" />
@@ -137,7 +137,40 @@ export default function Home() {
                   <p>Es la cuota de nuestra vida, el cuerpo sutil del ser, la sangre por donde se mueve la vida, purifica emociones, limpia pensamientos y palabra. </p>
               </div>
             </div>
+      </section>
 
+
+      <section className="section-how-we-are">
+          <div className="row">
+              <h2>Nuestro Equipo</h2>
+          </div>
+      </section>
+
+
+      <section className="section-testimonials">
+          <div className="row">
+              <h2>Lo que dicen de Nosotros</h2>
+          </div>
+          <div className="row">
+              <div className="col span-1-of-3">
+                  <blockquote>
+                    In in pharetra neque. Cras ultricies, odio et accumsan lacinia, massa urna dignissim elit, eu dapibus nunc lorem ac felis. Quisque commodo tincidunt vehicula. Aliquam maximus facilisis sapien in gravida!.
+                    <cite>  <Image src="/img/user-1.jpg" alt="user" width="100px" height="100px"/> Alberto Duncan</cite>
+                  </blockquote>
+              </div>
+              <div className="col span-1-of-3">
+                  <blockquote>
+                    In in pharetra neque. Cras ultricies, odio et accumsan lacinia, massa urna dignissim elit, eu dapibus nunc lorem ac felis. Quisque commodo tincidunt vehicula. Aliquam maximus facilisis sapien in gravida!.
+                    <cite>  <Image src="/img/user-2.jpg" alt="user" width="100px" height="100px"/> Johana Silva</cite>
+                  </blockquote>
+              </div>
+              <div className="col span-1-of-3">
+                  <blockquote>
+                    In in pharetra neque. Cras ultricies, odio et accumsan lacinia, massa urna dignissim elit, eu dapibus nunc lorem ac felis. Quisque commodo tincidunt vehicula. Aliquam maximus facilisis sapien in gravida!.
+                    <cite>  <Image src="/img/user-3.jpg" alt="user" width="100px" height="100px"/> Milton Chapman</cite>
+                  </blockquote>
+              </div>
+          </div>
       </section>
 
     </div>
