@@ -51,7 +51,7 @@ h1 {
 	margin-top: 0;
   margin-bottom: 20px;
 	color: #fff;
-	font-size: 200%;
+	font-size: 270%;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
@@ -171,7 +171,7 @@ header {
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .main-nav li {
@@ -185,7 +185,7 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 110%;
   border-bottom: 2px solid transparent;
   transition: boder-bottom 0.2s;
 }
@@ -197,10 +197,17 @@ header {
 }
 
 
-
+/* FEATURES   ============================================================================== */
+.section-features .long-copy{
+  margin-bottom: 30px;
+}
 
 
 /* IMAGES   ================================================================================ */
+
+.section-images {
+  padding: 0;
+}
 
 .images-showcase {
   list-style: none;
@@ -212,6 +219,26 @@ header {
   display: block;
   float: left;
   width: 25%;
+}
+
+.animal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.animal-photo  img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.animal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03)
 }
 
 

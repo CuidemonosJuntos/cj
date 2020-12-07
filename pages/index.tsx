@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Cuidémonos Juntos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -65,7 +65,7 @@ export default function Home() {
         <ul className="images-showcase">
           <li>
               <figure className="animal-photo">
-                  <Image src="/img/2.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" />
+                  <div className="mountain"><Image src="/img/2.jpg" alt="" width="800px" height="560px" sizes="(max-width: 500px) 100px" /></div>
               </figure>
           </li>
           <li>
