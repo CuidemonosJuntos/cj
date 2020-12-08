@@ -5,6 +5,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+
+            <meta
+                name="viewport"
+                content="width=device-width,minimum-scale=0.5,initial-scale=1"
+            />
+
         <title>Cuidémonos Juntos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -12,12 +18,11 @@ export default function Home() {
       <header>
           <nav>
             <div className="row">
-                <div className="logo"><Image src="/img/whitelogo.png" alt="logo" width="100px" height="100px" /></div>
+                <div className="logo"><Image src="/img/whitelogo.png" alt="logo" width="90px" height="90px" /></div>
                 <ul className="main-nav">
                         <li><a href="#">Quiénes Somos</a></li>
-                        <li><a href="#">Lo que ofrecemos</a></li>
+                        <li><a href="#">Servicios</a></li>
                         <li><a href="#">Planes</a></li>
-                        <li><a href="#">Contacto</a></li>
                         <li><a href="#">Log In</a></li>
                 </ul>
             </div>
@@ -111,7 +116,7 @@ export default function Home() {
 
       <section className="section-elements">
           <div className="row">
-              <h2>¿Cómo funciona? &mdash; Los Elementos: El Equilibrio</h2>
+              <h2>¿Cómo funciona? &mdash; Los Elementos: el Equilibrio</h2>
               <p className="long-copy">La madre tierra está constituida por una sinergia entre los cuatro elementos. Esa armonía elemental abarca todos los planos y las esferas de nuestra vida y nos envuelve su esencia, la mente, el cuerpo, el alma y nuestro alrededor.</p>
        </div>
           <div className="row">
@@ -241,7 +246,7 @@ export default function Home() {
           <div className="col span-1-of-2">
             <ul className="footer-nav">
               <li><a href="#">Quienes Somos</a></li>
-              <li><a href="#">Lo que ofrecemos</a></li>
+              <li><a href="#">Servicios</a></li>
               <li><a href="#">Planes</a></li>
               <li><a href="#">Contacto</a></li>
             </ul>

@@ -9,13 +9,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 
@@ -174,6 +176,16 @@ header {
   transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+  }
+  .row { padding: 0 2%; }
+}
+
+
 .logo {
   float: left;
   margin-top: 20px
@@ -196,7 +208,7 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 110%;
+  font-size: 100%;
   border-bottom: 2px solid transparent;
   transition: boder-bottom 0.2s;
 }
@@ -424,6 +436,22 @@ footer p {
 	margin: 0px;
 }
 
+@media only screen and (max-width: 1023px) {
+  body { font-size: 16px;}
+  section {padding: 60px 0;}
+
+  .long-copy {
+      width: 80%;
+      margin-left: 10%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+}
+
 /*  GROUPING  ============================================================================= */
 
 .row {
@@ -459,6 +487,32 @@ footer p {
 	}
 }
 
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  body { font-size: 10px; }
+  section { padding: 30px 0;}
+
+  .row,
+  .hero-text-box { padding: 0 4%; }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav { display: none; }
+
+  h1 { font-size: 180%; }
+  h2 { font-size: 150%; }
+
+  .long-copy {
+      width: 100%;
+      margin-left: 2%;
+  }
+}
 
 /*  GRID OF TWO   ============================================================================= */
 
