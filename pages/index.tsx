@@ -58,7 +58,6 @@ export default function Home() {
                     <p>El Mamo Senchina de la comunidad Kogui nos guía, desde la Sierra Nevada de Santa Marta con los conocimientos de abuelos, nos enseña cómo es el buen vivir y las prácticas espirituales para llegar a la armonía.</p>
                 </div>
             </div>
-
       </section>
 
 
@@ -171,6 +170,71 @@ export default function Home() {
                   </blockquote>
               </div>
           </div>
+      </section>
+
+      <section className="section-plans">
+        <div className="row">
+            <h2>Empieza tu descubrimiento hoy!</h2>
+        </div>
+        <div className="row">
+          <div className="col span-1-of-3">
+              <div className="plan-box">
+                  <div>
+                      <h3>Free</h3>
+                      <p className="plan-price">$0.00 <span>/ mes</span></p>
+                      <p className="plan-price-service">Cuatro sesiones</p>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>Cras ultricies</li>
+                      <li>Cras ultricies</li>
+                      <li>Cras ultricies</li>
+                    </ul>
+                  </div>
+                  <div>
+                      <a href="#" className="btn btn-ghost">Regístrate</a>
+                  </div>
+              </div>
+          </div>
+          <div className="col span-1-of-3">
+              <div className="plan-box">
+                  <div>
+                      <h3>Avanzado</h3>
+                      <p className="plan-price">$100 <span>/ mes</span></p>
+                      <p className="plan-price-service">Cuatro sesiones</p>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>Cras ultricies</li>
+                      <li>Cras ultricies</li>
+                    </ul>
+                  </div>
+                  <div>
+                      <a href="#" className="btn btn-full">Regístrate</a>
+                  </div>
+              </div>
+          </div>
+          <div className="col span-1-of-3">
+              <div className="plan-box">
+                  <div>
+                      <h3>Premiun</h3>
+                      <p className="plan-price">$180  <span>/ mes</span></p>
+                      <p className="plan-price-service">Cuatro sesiones</p>
+                  </div>
+                  <div>
+                    <ul>
+                    <li>Cras ultricies</li>
+                      <li>Cras ultricies</li>
+                      <li>Cras ultricies</li>
+                    </ul>
+                  </div>
+                  <div>
+                      <a href="#" className="btn btn-ghost">Regístrate</a>
+                  </div>
+               </div>
+          </div>
+        </div>
+
       </section>
 
     </div>
