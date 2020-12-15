@@ -1,5 +1,5 @@
+import React, { useState } from 'react'
 import Link from 'next/link'
-import services from '../../pages/services'
 import item from '../../interfaces'
 
 interface ServicesProps {
@@ -8,19 +8,35 @@ interface ServicesProps {
 
 export default function Accordion({items}: ServicesProps) {
 
-    const renderedItems = items.map(item => {
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const onTitleClick = (index) => {
+        setActiveIndex(index)
+    }
+
+    const renderedItems = items.map((item, index) => {
         return (
-            <div>
-                <h3>{item.title}</h3>
-                <p>{item.content}</p>
-            </div>
+            <React.Fragment key={index}>
+                <div
+                    className="title active"
+                    onClick={() => onTitleClick(index)}
+                >
+                    <i className="dropdown icon"></i>
+                    {item.title}
+                </div>
+                <div className="content active">
+                    <p>{item.content}</p>
+                </div>
+            </React.Fragment>
         )
     })
   return (
-      <div>
+      <>
         <h2>Accordion</h2>
-        {renderedItems }
-      </div>
-
+            <div className="ui styled accordion">
+                {renderedItems}
+                <h2>{activeIndex}</h2>
+            </div>
+      </>
   )
 }
