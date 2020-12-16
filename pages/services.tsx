@@ -1,7 +1,8 @@
+//import 'semantic-ui-css/semantic.min.css'
 import Link from 'next/link'
 import Navbar from '../components/shared/Navbar'
 import Footer from '../components/shared/Footer'
-import Accordion from '../components/shared/Accordion'
+import Service from '../components/shared/Service'
 import item from '../interfaces'
 
 
@@ -28,11 +29,10 @@ function services(){
             <Navbar />
                 <br></br>
                 <Link href="/">Go to the index page</Link>
-                <h2>Widgets</h2>
-                <br></br>
-                <Accordion items={items}/>
+                <h2>Servicios</h2>
+                <br />
+                <Service items={items}/>
             <Footer />
-
         </>
     )
 }
